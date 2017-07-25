@@ -1,4 +1,5 @@
-﻿using IFluent.Движок.Типы;
+﻿using System.Collections.Generic;
+using IFluent.Движок.Типы;
 
 namespace IFluent.Движок.Сущности
 {
@@ -24,5 +25,13 @@ namespace IFluent.Движок.Сущности
         {
             return Название;
         }
+
+        public Локация СлитьСОписанием(Игра.ОписаниеИгры.ОписаниеЛокаций.ОписаниеЛокации описаниеЛокации)
+        {
+            Кнопки.AddRange(описаниеЛокации.Кнопки);
+            return this;
+        }
+
+        public List<Кнопка> Кнопки { get; } = new List<Кнопка>();
     }
 }
