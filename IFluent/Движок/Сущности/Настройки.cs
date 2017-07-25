@@ -1,4 +1,4 @@
-﻿namespace IFluent.Engine
+﻿namespace IFluent.Движок.Сущности
 {
     internal class Настройки
     {

@@ -1,4 +1,4 @@
-﻿namespace IFluent.Engine
+﻿namespace IFluent.Движок.Типы
 {
     internal class Текст
     {

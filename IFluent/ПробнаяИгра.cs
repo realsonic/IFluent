@@ -1,8 +1,9 @@
-﻿using IFluent.Engine;
+﻿using IFluent.Движок.Ошибки;
+using IFluent.Движок.Сущности;
 
 namespace IFluent
 {
-    internal static class Program
+    internal static class ПробнаяИгра
     {
         private static void Main(/*string[] args*/)
         {

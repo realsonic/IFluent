@@ -1,6 +1,7 @@
 ﻿using System;
+using IFluent.Движок.Типы;
 
-namespace IFluent.Engine
+namespace IFluent.Движок.Ошибки
 {
     internal class ОшибкаОписания : Exception
     {

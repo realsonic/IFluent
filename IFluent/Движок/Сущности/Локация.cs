@@ -1,4 +1,6 @@
-﻿namespace IFluent.Engine
+﻿using IFluent.Движок.Типы;
+
+namespace IFluent.Движок.Сущности
 {
     internal class Локация
     {

@@ -2,8 +2,10 @@
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
+using IFluent.Движок.Ошибки;
+using IFluent.Движок.Типы;
 
-namespace IFluent.Engine
+namespace IFluent.Движок.Сущности
 {
     internal class Игра
     {
